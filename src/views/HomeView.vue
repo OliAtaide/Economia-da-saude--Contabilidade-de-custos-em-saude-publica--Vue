@@ -199,7 +199,7 @@
       </button>
     </div>
   </div>
-  <NavButtons id="0"></NavButtons>
+  <NavButtons id="0" :prev="false" :next="true"></NavButtons>
 </template>
 
 <script setup>
@@ -216,5 +216,3 @@ onMounted(() => {
   );
 });
 </script>
-
-

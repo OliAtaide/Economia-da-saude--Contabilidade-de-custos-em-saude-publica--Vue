@@ -17,6 +17,9 @@ const isMounted = ref(false);
 const isComplete = ref(false);
 const comp = ref(NotFound);
 
+const next = ref(false);
+const prev = ref(false);
+
 const slides = [
   SlideOne,
   SlideTwo,
@@ -29,7 +32,9 @@ const slides = [
 
 function getComp() {
   const idint = Number.parseInt(id) - 1;
+  prev.value = idint > 0;
 
+  next.value = Number.parseInt(id) < slides.length;
   comp.value = computed(() => {
     for (let i = 0; i < slides.length; i++) {
       if (i == idint) {
@@ -52,6 +57,8 @@ watch(
   (newId) => {
     isMounted.value = false;
     isComplete.value = false;
+    prev.value = false;
+    next.value = false;
     id = newId;
     getComp();
   }
@@ -62,5 +69,5 @@ watch(
   <div :if="isMounted.value" class="container main p-3">
     <component :if="comp.value" :is="comp.value" />
   </div>
-  <NavButtons :id="Number.parseInt(id)"></NavButtons>
+  <NavButtons  :id="Number.parseInt(id)" :prev="prev" :next="next"></NavButtons>
 </template>
