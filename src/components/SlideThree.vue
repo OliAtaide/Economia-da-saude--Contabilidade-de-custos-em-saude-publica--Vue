@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="alert alert-primary">
+    <div class="alert alert-primary mb-4">
       Outra opção seria atribuir os custos com base nos serviços prestados.
       Aqui, levaríamos em conta a quantidade real de trabalho realizado em cada
       departamento. Por exemplo, o
