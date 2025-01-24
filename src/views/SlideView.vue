@@ -5,6 +5,8 @@ import NavButtons from "@/components/NavButtons.vue";
 import NotFound from "@/components/NotFound.vue";
 import SlideLast from "@/components/SlideLast.vue";
 import SlideOne from "@/components/SlideOne.vue";
+import SlideOneFour from "@/components/SlideOneFour.vue";
+import SlideOneThree from "@/components/SlideOneThree.vue";
 import SlideOneTwo from "@/components/SlideOneTwo.vue";
 import SlideThree from "@/components/SlideThree.vue";
 import SlideTwo from "@/components/SlideTwo.vue";
@@ -22,11 +24,13 @@ const prev = ref(false);
 
 const slides = [
   SlideOne,
+  SlideOneTwo,
   SlideTwo,
   SlideThree,
   DangerSlide,
   CirclesSlide,
-  SlideOneTwo,
+  SlideOneThree,
+  SlideOneFour,
   SlideLast,
 ];
 

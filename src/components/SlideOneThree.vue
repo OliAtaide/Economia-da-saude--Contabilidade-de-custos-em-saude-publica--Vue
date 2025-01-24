@@ -4,15 +4,19 @@ import GuyRow from "./GuyRow.vue";
 
 <template>
   <GuyRow>
-    Vamos pensar na gestão dos custos. Ambos os departamentos compartilham
-    recursos importantes, como
+    Vamos considerar a gestão dos custos. Cada departamento compartilha alguns
+    recursos, como
     <strong> espaço físico</strong>, <strong> equipamentos médicos </strong> e
     <strong> pessoal administrativo </strong>.
   </GuyRow>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .row .popover {
   max-width: 100% !important;
+}
+
+strong{
+    color: #614c9a;
 }
 </style>

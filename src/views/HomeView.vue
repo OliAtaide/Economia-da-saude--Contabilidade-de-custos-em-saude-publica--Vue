@@ -50,7 +50,7 @@
       <button
         type="button"
         class="losango emergencia"
-        data-bs-container="body"
+        data-bs-container=".losangos"
         data-bs-toggle="popover"
         data-bs-placement="top"
         data-bs-content="Profissionais correm contra o tempo para atender os pacientes em situações críticas."
@@ -190,7 +190,7 @@
       <button
         type="button"
         class="losango cirurgia"
-        data-bs-container="body"
+        data-bs-container=".losangos"
         data-bs-toggle="popover"
         data-bs-placement="top"
         data-bs-content="Cirurgiões realizam procedimentos complexos para restaurar a saúde dos pacientes."
