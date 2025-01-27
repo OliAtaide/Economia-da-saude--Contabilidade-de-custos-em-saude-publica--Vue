@@ -18,7 +18,7 @@
         data-bs-container=".circulos .clinica"
         data-bs-toggle="popover"
         data-bs-placement="top"
-        data-bs-content="Profissionais correm contra o tempo para atender os pacientes em situações críticas."
+        data-bs-content="Os pacientes são diagnosticados e tratados para uma ampla gama de condições médicas."
       >
         <span>Departamento de <br />Clínica Médica</span>
       </button>
@@ -30,7 +30,7 @@
         data-bs-container=".circulos .ensino"
         data-bs-toggle="popover"
         data-bs-placement="left"
-        data-bs-content="Profissionais correm contra o tempo para atender os pacientes em situações críticas."
+        data-bs-content="Há uma variedade de atividades em andamento, como aulas, pesquisa científica e treinamento de residentes."
       >
         <span
           >Departamento <br />
@@ -46,7 +46,7 @@
         data-bs-container=".circulos .diagnostico"
         data-bs-toggle="popover"
         data-bs-placement="right"
-        data-bs-content="Cirurgiões realizam procedimentos complexos para restaurar a saúde dos pacientes."
+        data-bs-content="São realizados exames de imagem, como tomografias e ressonâncias magnéticas."
       >
         <span>
           Departamento
